@@ -39,4 +39,5 @@ IF Angka % 2 = 0 THEN
     OUTPUT "Bilangan Genap"
 ELSE
     OUTPUT "Bilangan Ganjil"
+ENDIF
 ```
