@@ -3,7 +3,7 @@ flowchart TD
     start((Mulai)) --> init[i <- 1]
     init --> check{i <= 10?}
     check -- yes --> kondisional{i % 2 == 0}
-    kondisional -- yes --> out[/Fizzbazz/]
+    kondisional -- yes --> out[/Fizzbuzz/]
     out --> increment[i++]
     kondisional -- no --> print[/Output i/]
     increment --> check
