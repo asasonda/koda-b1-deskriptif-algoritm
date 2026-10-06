@@ -29,8 +29,8 @@ flowchart TD
     pilihan -- ya --> luas[Luas = 3.14 x jari-jari kuadrat]
     pilihan -- tidak --> keliling[Keliling = 2 x 3.14 x jari-jari]
 
-    luas --> hasilL[/Luas lingkaran/]
-    keliling --> hasilK[/Luas Lingkaran/]
+    luas --> hasilL[/Tampilkan Luas lingkaran/]
+    keliling --> hasilK[/Tampilkan Keliling Lingkaran/]
     hasilL --> selesai(((stop)))
     hasilK --> selesai
 ```
