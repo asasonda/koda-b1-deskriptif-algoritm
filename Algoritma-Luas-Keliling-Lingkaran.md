@@ -22,10 +22,7 @@
 ```mermaid
 flowchart TD
     start((Mulai)) --> input[/Masukkan Jari-jari/]
-    input --> masukan[/Masukan pilihan:
-    1. Hitung luas
-    2. Hitung Keliling/]
-    masukan --> pilihan{Hitung Luas?}
+    input --> pilihan{Hitung Luas?}
     pilihan -- ya --> luas[Luas = 3.14 x jari-jari kuadrat]
     pilihan -- tidak --> keliling[Keliling = 2 x 3.14 x jari-jari]
 
