@@ -30,3 +30,25 @@ flowchart TD
     hasilL --> selesai(((stop)))
     hasilK --> selesai
 ```
+
+## Pseudo Code
+
+```pseudocode
+DECLARE R : REAL
+DECLARE Luas : REAL
+DECLARE Keliling : REAL
+CONSTANT Phi = 3.14
+DECLARE PilihPerhitungan : STRING
+
+INPUT R
+
+Luas <- Phi * r * r
+Keliling <- 2 * Phi * r
+
+IF PilihPerhitungan = Luas
+    OUTPUT "Hasil Luas = ", Luas
+Else
+    OUTPUT "Hasil Keliling = ",Keliling
+ENDIF
+
+```
