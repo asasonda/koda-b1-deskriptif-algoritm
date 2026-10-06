@@ -1,10 +1,30 @@
-## Algoritma Ganjil Genap
+# Algoritma
+
+## Algoritma Deskriptif Ganjil Genap
+
+### Check Ganjil Genap
 
 ```
 1. Mulai
 2. Masukan Bilangan
 3. Lakukan check bilangan menggunakan modulo
-4. Jika bilangan habis dibagi 2 atau sisa pembagiannya = 0 maka bilangan tersebut Genap
+4. Jika bilangan habis dibagi 2 maka bilangan tersebut Genap
 5. Jika bilangan tidak habis dibagi 2 maka bilangan tersebut bilangan Ganjil
 6. Selesai
+```
+
+## Flowchart Ganjil Genap
+
+### Check Ganjil Genap
+
+```mermaid
+flowchart TD
+    start((Mulai)) --> Input[/Masukkan Angka/]
+    Input --> proses[angka % 2 == 0]
+    proses--> check{Angka genap?}
+    check -- Ya --> genap[Bilangan adalah Genap]
+    check -- False --> ganjil[Bilangan adalah Ganjil]
+
+    genap --> selesai(((stop)))
+    ganjil --> selesai
 ```
