@@ -13,6 +13,7 @@ flowchart TD
 ```
 
 ```pseudocode
+DECLARE i : INTEGER
 FOR i <- 1 TO 10 STEP 1
     IF i % 2 = 0 THEN
         OUTPUT "Fizzbuzz"
