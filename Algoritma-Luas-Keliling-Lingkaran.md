@@ -7,7 +7,6 @@
 ```
 1. Mulai
 2. Masukkan jari-jari lingkaran
-3. Masukan pilihan untuk menghitung Luas atau keliling lingkaran
 3. Jika menghitung keliling maka hitung keliling lingkaran dengan mengalikan jari-jari tersebut dengan 2 x 3.14
 4. Tampilkan hasil keliling lingkaran
 5. Jika menghitung luas lingkarannya adalah mengalikan 3.14 dengan hasil jari-jari kuadrat.
