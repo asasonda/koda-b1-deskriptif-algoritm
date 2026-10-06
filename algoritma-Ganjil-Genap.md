@@ -21,7 +21,7 @@
 flowchart TD
     start((Mulai)) --> Input[/Masukkan Angka/]
     Input --> proses[angka % 2 == 0]
-    proses--> check{Angka genap?}
+    proses--> check{sisa bagi = 0?}
     check -- Ya --> genap[Bilangan adalah Genap]
     check -- Tidak --> ganjil[Bilangan adalah Ganjil]
 
