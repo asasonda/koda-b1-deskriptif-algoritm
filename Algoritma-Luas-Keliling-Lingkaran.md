@@ -43,12 +43,12 @@ DECLARE PilihPerhitungan : STRING
 INPUT R
 INPUT PilihPerhitungan
 
-Luas <- Phi * r * r
-Keliling <- 2 * Phi * r
 
 IF PilihPerhitungan = Luas THEN
+    Luas <- Phi * r * r
     OUTPUT "Hasil Luas = ", Luas
 Else
+    Keliling <- 2 * Phi * r
     OUTPUT "Hasil Keliling = ",Keliling
 ENDIF
 ```
