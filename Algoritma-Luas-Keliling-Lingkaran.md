@@ -1,4 +1,4 @@
-# Algoritma Luar dan Keliling Lingkarang
+# Algoritma Luas dan Keliling Lingkarang
 
 ```
 1. Mulai
