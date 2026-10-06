@@ -23,7 +23,7 @@ flowchart TD
     Input --> proses[angka % 2 == 0]
     proses--> check{Angka genap?}
     check -- Ya --> genap[Bilangan adalah Genap]
-    check -- False --> ganjil[Bilangan adalah Ganjil]
+    check -- Tidak --> ganjil[Bilangan adalah Ganjil]
 
     genap --> selesai(((stop)))
     ganjil --> selesai
