@@ -15,7 +15,7 @@ flowchart TD
 ```pseudocode
 FOR i <- 1 TO 10 STEP 1
     IF i % 2 = 0 THEN
-        OUTPUT "Fizzbazz"
+        OUTPUT "Fizzbuzz"
     ELSE
         OUTPUT i
     ENDIF
