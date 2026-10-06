@@ -28,3 +28,17 @@ flowchart TD
     genap --> selesai(((stop)))
     ganjil --> selesai
 ```
+
+## Pseudo Code
+``` pseudocode
+DECLARE Angka : INTEGER
+DECLARE Check : INTEGER
+
+INPUT Angka
+Check <- Angka % 2
+
+IF Check = 0 THEN
+    OUTPUT "Bilangan Genap"
+ELSE
+    OUTPUT "Bilangan Ganjil"
+```
