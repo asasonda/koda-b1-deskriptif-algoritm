@@ -42,3 +42,16 @@ C <- 0
 Hasil <- A * B + 0
 OUTPUT "Hasil A*B+0 = ", Hasil
 ```
+
+### Function
+
+```pseudo Code
+DECLARE A : INTEGER
+DECLARE B : INTEGER
+DECLARE C : INTEGER
+
+FUNCTION Aritmatika (A,B,C) RETURNS INTEGER
+    RETURN A * B + C
+ENDFUNCTION
+OUTPUT "Hasil Aritmatika AxB+C = ", Aritmatika(1,1,0)
+```
