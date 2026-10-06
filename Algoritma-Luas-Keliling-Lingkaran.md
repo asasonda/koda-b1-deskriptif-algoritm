@@ -46,7 +46,7 @@ INPUT PilihPerhitungan
 Luas <- Phi * r * r
 Keliling <- 2 * Phi * r
 
-IF PilihPerhitungan = Luas
+IF PilihPerhitungan = Luas THEN
     OUTPUT "Hasil Luas = ", Luas
 Else
     OUTPUT "Hasil Keliling = ",Keliling
