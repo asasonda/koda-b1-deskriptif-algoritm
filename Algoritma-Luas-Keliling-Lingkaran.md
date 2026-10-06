@@ -41,6 +41,7 @@ CONSTANT Phi = 3.14
 DECLARE PilihPerhitungan : STRING
 
 INPUT R
+INPUT PilihPerhitungan
 
 Luas <- Phi * r * r
 Keliling <- 2 * Phi * r
@@ -50,5 +51,4 @@ IF PilihPerhitungan = Luas
 Else
     OUTPUT "Hasil Keliling = ",Keliling
 ENDIF
-
 ```
