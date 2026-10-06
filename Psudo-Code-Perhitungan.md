@@ -13,5 +13,5 @@ B <- 1
 C <- 0
 
 Hasil <- A * B + C
-OUTPUT "Hasil 1+1x0 = ", Hasil
+OUTPUT "Hasil 1x1+0 = ", Hasil
 ```
